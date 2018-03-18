@@ -338,6 +338,18 @@ blockquote span,
 
 /*----latest news end----*/
 
+/*----lets-talk----*/
+.lets-talk .lets-talk-content{
+	padding: 140px 0;
+}
+.lets-talk .lets-talk-content p{
+	color: rgba(255, 255, 255, .7);
+	margin-bottom: 35px;
+}
+.lets-talk-img{
+	margin-top: -32px;
+}
+/*----lets-talk end----*/
 /*=====Customs style end ====*/
 
 
