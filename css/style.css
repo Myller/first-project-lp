@@ -244,23 +244,63 @@ blockquote span,
 /*----About-studio-end----*/
 
 /*----why-choose-us----*/
-
+.why-choose-us .title{
+	margin-bottom: 90px;
+}
 .why-choose-us .why-choose-us-benefits .icon{
 	font-size: 48px;
 }
 .why-choose-us .why-choose-us-benefits .title{
-	font-family: 'Dosis', sans-serif;
 	margin: 35px 0;
 	letter-spacing: .4em;
 	font-weight: 400;
 }
-.why-choose-us .why-choose-us-benefits span{
+.why-choose-us .why-choose-us-benefits span,
+.latest-news .latest-news-post span{
 	display: block;
 }
 .why-choose-us .row + .row{
 	margin-top: 86px;
 }
 
+/*----why-choose-us-end---*/
+
+/*----latest news----*/
+.latest-news .title{
+	margin-bottom: 80px;
+}
+.latest-news .title span{
+	display: block;
+}
+.latest-news .latest-news-post .latest-news-post-img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: .2s;
+}
+.latest-news .latest-news-post:hover .latest-news-post-img{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.latest-news .title .latest-news-header-link,
+.latest-news .latest-news-post .latest-news-post-author{
+	float: right;
+	font-size: 11px;
+	font-weight: 300;
+	letter-spacing: .4em;
+}
+.latest-news .latest-news-post .latest-news-post-author {
+	float: none;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+}
+.latest-news .latest-news-post .title{
+	margin: 30px 0 17px;
+}
+.latest-news .latest-news-post .default-text{
+	margin-bottom: 25px;
+}
+
+/*----latest news end----*/
 
 /*=====Customs style end ====*/
 
