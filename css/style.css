@@ -2,6 +2,9 @@
 *{
 	box-sizing: border-box;
 }
+*:focus{
+	outline: none;
+}
 body{
 	margin: 0;
 	background-color: #fff;
@@ -243,7 +246,40 @@ blockquote span,
 }
 /*----About-studio-end----*/
 
+/*----Services----*/
+
+#tabs .tabs-nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-bottom: 79px;
+	color: #a7a7a7;
+	overflow: hidden;
+}
+#tabs .tabs-nav .ui-state-active{
+	color: #111;
+}
+#tabs .tabs-nav li span{
+	display: block;
+}
+#tabs .tabs-nav li .icon{
+	font-size: 48px;
+	margin-bottom: 35px;
+}
+#tabs .tabs-nav li .tabs-nav-title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+}
+
+/*----Services end----*/
+
 /*----why-choose-us----*/
+.why-choose-us{
+	border-bottom: 1px solid #ececec;
+}
 .why-choose-us .title{
 	margin-bottom: 90px;
 }
