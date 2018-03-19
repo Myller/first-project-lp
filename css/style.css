@@ -374,18 +374,21 @@ blockquote span,
 #portfolio .tabs-nav li + li{
 	margin-left: 69px;
 }
-.portfolio-items{
+#portfolio .portfolio-item{
+	margin: 0 -4px;
+}
+#portfolio .portfolio-item .portfolio-items{
 	float: left;
 	max-width: 33.333333%;
 	padding: 4px;
 }
-#portfolio .portfolio-items img{
+#portfolio .portfolio-item .portfolio-items img{
 	width: 100%;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	transition: .2s;
 }
-#portfolio .portfolio-items img:hover{
+#portfolio .portfolio-item .portfolio-items img:hover{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
