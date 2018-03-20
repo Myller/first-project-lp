@@ -139,6 +139,7 @@ blockquote span,
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 400;
+    letter-spacing: .2em;
 }
 .btn.btn-default{
 	background-color: #e5e5e5;
@@ -189,6 +190,14 @@ textarea.form-control{
 }
 .form-control.error{
 	border-color: #f57e7e;
+}
+.form-info{
+    font-size: 11px;
+    font-weight: 400;
+    color: #aaa;
+}
+.form-info .fa{
+    font-size: 12px;
 }
 /*=====Default components end ====*/
 
@@ -453,9 +462,6 @@ textarea.form-control{
 .start-project .section-title-light{
 	margin-bottom: 25px;
 }
-.start-project .btn{
-    letter-spacing: .2em;
-}
 /*----start-project end----*/
 
 /*----subscribe----*/
@@ -463,14 +469,12 @@ textarea.form-control{
 .subscribe form .form-control{
 	max-width: 290px;
 }
-
+.subscribe .form-info {
+    margin-top: 17px;
+}
 /*----subscribe end----*/
 
 
-/*----contacts----*/
-
-
-/*----contacts-end----*/
 /*=====Customs style end ====*/
 
 
