@@ -253,7 +253,7 @@ blockquote span,
 	width: 20%;
 	text-align: center;
 	margin-bottom: 79px;
-	color: #a7a7a7;
+	color: rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 }
 #tabs .tabs-nav .ui-state-active{
@@ -351,8 +351,10 @@ blockquote span,
 }
 /*----lets-talk end----*/
 
-/*----portfolio----*/
-
+/*----portfolio---- */
+.portfolio .default-section  {
+	padding-bottom: 0;
+}
 .portfolio .portfolio-text{
 	max-width: 760px;
 	margin: 0 auto 85px;
@@ -365,7 +367,7 @@ blockquote span,
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #c7c7c7;
+	color: rgba(0, 0, 0, 0.5);
 	margin-bottom: 51px;
 }
 #portfolio .tabs-nav .ui-state-active{
@@ -377,22 +379,31 @@ blockquote span,
 #portfolio .portfolio-item{
 	margin: 0 -4px;
 }
-#portfolio .portfolio-item .portfolio-items{
+#portfolio .portfolio-items{
 	float: left;
-	max-width: 33.333333%;
+	max-width: 33.3333%;
 	padding: 4px;
 }
-#portfolio .portfolio-item .portfolio-items img{
+#portfolio .portfolio-items img{
 	width: 100%;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	transition: .2s;
 }
-#portfolio .portfolio-item .portfolio-items img:hover{
+#portfolio .portfolio-items img:hover{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
 /*----portfolio end----*/
+
+/*----start-project----*/
+.start-project .section-title-light{
+	margin-bottom: 25px;
+}
+.start-project .btn{
+    letter-spacing: .2em;
+}
+/*----start-project end----*/
 
 /*=====Customs style end ====*/
 
