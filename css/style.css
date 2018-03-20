@@ -33,9 +33,19 @@ ul, ol{
 img {
 	max-width: 100%;
 }
-button {
+input,
+textarea,
+button{
 	outline: none;
 	border: none;
+}
+button {
+	cursor: pointer;
+}
+textarea{
+	resize: vertical;
+}
+input[type="submit"]{
 	cursor: pointer;
 }
 blockquote {
@@ -63,6 +73,7 @@ blockquote {
 	background-color: #f8f8f8;
 }
 /*====Default classes end====*/
+
 /*=====Default components start ====*/
 /*
  	Buttons, text, title, section, header, footer,
@@ -138,6 +149,7 @@ blockquote span,
 	color: #777;
 }
 .btn.btn-black{
+	color: #fff;
 	background-color: #323232;
 }
 .btn.btn-black:hover{
@@ -147,7 +159,45 @@ blockquote span,
 	padding: 7px 15px;
 	font-size: 11px;
 }
+.btn[disabled]{
+	cursor: not-allowed;
+	opacity: .6;
+}
+.form-control{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	height: 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #777;
+	padding: 0 13px;
+}
+.form-control:focus{
+	border-color: #111;
+}
+textarea.form-control{
+	min-height: 82px;
+	padding-top: 10px;
+}
+.form-control[disabled],
+.form-control.disabled{
+	cursor: not-allowed;
+}
+.form-control.error{
+	border-color: #f57e7e;
+}
 /*=====Default components end ====*/
+
+/*====Guide style start ====*/
+.guide-section form .form-control{
+	margin-bottom: 10px;
+}
+
+/*====Guide style start end ====*/
 
 /*=====Customs style start ====*/
 .header {
@@ -376,6 +426,9 @@ blockquote span,
 #portfolio .tabs-nav li + li{
 	margin-left: 69px;
 }
+#portfolio .row{
+	overflow: hidden;
+}
 #portfolio .portfolio-item{
 	margin: 0 -4px;
 }
@@ -405,6 +458,19 @@ blockquote span,
 }
 /*----start-project end----*/
 
+/*----subscribe----*/
+
+.subscribe form .form-control{
+	max-width: 290px;
+}
+
+/*----subscribe end----*/
+
+
+/*----contacts----*/
+
+
+/*----contacts-end----*/
 /*=====Customs style end ====*/
 
 
