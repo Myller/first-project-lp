@@ -228,7 +228,6 @@ textarea.form-control{
 	float: left;
 	line-height: 31px;
 	color: rgba(255, 255, 255, .75);
-	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .2em;
 	font-size: 11px;
@@ -292,6 +291,7 @@ textarea.form-control{
 .team-item-info span{
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	letter-spacing: .3em;
 }
@@ -306,12 +306,16 @@ textarea.form-control{
 /*----About-studio-end----*/
 
 /*----Services----*/
+#tabs .tabs-nav {
+	overflow: hidden;
+	margin-bottom: 79px;
+}
 
 #tabs .tabs-nav li{
 	float: left;
 	width: 20%;
 	text-align: center;
-	margin-bottom: 79px;
+
 	color: rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 }
@@ -334,6 +338,78 @@ textarea.form-control{
 }
 
 /*----Services end----*/
+/*----lets-talk----*/
+.lets-talk .lets-talk-content{
+	padding: 140px 0;
+}
+.lets-talk .lets-talk-content p{
+	color: rgba(255, 255, 255, .7);
+	margin-bottom: 35px;
+}
+.lets-talk-img{
+	margin-top: -32px;
+}
+.lets-talk .lets-talk-content .btn{
+	font-family: 'Open Sans', sans-serif;
+}
+/*----lets-talk end----*/
+
+/*----portfolio---- */
+.portfolio .default-section  {
+	padding-bottom: 0;
+}
+.portfolio .portfolio-text{
+	max-width: 760px;
+	margin: 0 auto 85px;
+}
+#portfolio .tabs-nav{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: .4em;
+	overflow: hidden;
+	margin-bottom: 51px;
+}
+#portfolio .tabs-nav li{
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+}
+#portfolio .tabs-nav .ui-state-active{
+	color: #111;
+}
+#portfolio .tabs-nav li + li{
+	margin-left: 69px;
+}
+#portfolio .row{
+	overflow: hidden;
+}
+#portfolio .portfolio-item{
+	margin: 0 -4px;
+}
+#portfolio .portfolio-items{
+	float: left;
+	max-width: 33.3333%;
+	padding: 4px;
+}
+#portfolio .portfolio-items img{
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: .2s;
+}
+#portfolio .portfolio-items img:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/*----portfolio end----*/
+
+/*----start-project----*/
+.start-project .section-title-light{
+	margin-bottom: 25px;
+}
+/*----start-project end----*/
 
 /*----why-choose-us----*/
 .why-choose-us{
@@ -387,9 +463,11 @@ textarea.form-control{
 	float: none;
 	text-transform: uppercase;
 	margin-bottom: 27px;
+	font-family: 'Dosis', sans-serif;
 }
 .latest-news .latest-news-post .title{
 	margin: 30px 0 17px;
+	letter-spacing: .2em;
 }
 .latest-news .latest-news-post .default-text{
 	margin-bottom: 25px;
@@ -397,77 +475,14 @@ textarea.form-control{
 
 /*----latest news end----*/
 
-/*----lets-talk----*/
-.lets-talk .lets-talk-content{
-	padding: 140px 0;
-}
-.lets-talk .lets-talk-content p{
-	color: rgba(255, 255, 255, .7);
-	margin-bottom: 35px;
-}
-.lets-talk-img{
-	margin-top: -32px;
-}
-/*----lets-talk end----*/
-
-/*----portfolio---- */
-.portfolio .default-section  {
-	padding-bottom: 0;
-}
-.portfolio .portfolio-text{
-	max-width: 760px;
-	margin: 0 auto 85px;
-}
-#portfolio .tabs-nav{
-	text-align: center;
-}
-#portfolio .tabs-nav li{
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: rgba(0, 0, 0, 0.5);
-	margin-bottom: 51px;
-}
-#portfolio .tabs-nav .ui-state-active{
-	color: #111;
-}
-#portfolio .tabs-nav li + li{
-	margin-left: 69px;
-}
-#portfolio .row{
-	overflow: hidden;
-}
-#portfolio .portfolio-item{
-	margin: 0 -4px;
-}
-#portfolio .portfolio-items{
-	float: left;
-	max-width: 33.3333%;
-	padding: 4px;
-}
-#portfolio .portfolio-items img{
-	width: 100%;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	transition: .2s;
-}
-#portfolio .portfolio-items img:hover{
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-/*----portfolio end----*/
-
-/*----start-project----*/
-.start-project .section-title-light{
-	margin-bottom: 25px;
-}
-/*----start-project end----*/
 
 /*----subscribe----*/
 
 .subscribe form .form-control{
 	max-width: 290px;
+}
+.subscribe form .btn{
+	font-family: 'Open Sans', sans-serif;
 }
 .subscribe .form-info {
     margin-top: 17px;
