@@ -41,6 +41,7 @@ button{
 }
 button {
 	cursor: pointer;
+    padding: 0;
 }
 textarea{
 	resize: vertical;
@@ -435,6 +436,89 @@ textarea.form-control{
 }
 
 /*----why-choose-us-end---*/
+
+/*----review carousel----*/
+.reviews-carousel{
+    padding: 135px 0;
+	overflow: hidden;
+}
+.slick-dots{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30px;
+}
+.slick-dots li{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: rgba(255, 255, 255, .8);
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots li button{
+    display: none;
+}
+.slick-dots li + li{
+    margin-left: 5px;
+}
+.slick-dots li.slick-active{
+    background-color: #000;
+    border-color: rgba(255, 255, 255, .8);
+}
+.slick-arrow{
+    position: absolute;
+    height: 100%;
+    top: 0;
+	z-index: 99;
+}
+.slick-arrow.slick-prev{
+    left: 0;
+}
+.slick-arrow.slick-next{
+    right: 0;
+}
+.slick-arrow .carousel-button{
+    width: 63px;
+    height: 63px;
+    background-color: #fff;
+    transform: rotate( 45deg);
+    position: absolute;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -31px;
+}
+.slick-arrow .carousel-button .fa{
+    position: absolute;
+    transform: rotate(-45deg);
+    font-size: 10px;
+}
+.slick-arrow.slick-prev .carousel-button .fa{
+    bottom: 38px;
+    right: 15px;
+}
+.slick-arrow.slick-next .carousel-button .fa{
+    top: 41px;
+    left: 15px;
+}
+.slide-content .section-title-light{
+	margin-bottom: 44px;
+}
+.slide-content .icon{
+    font-size: 32px;
+    color: #fff;
+	margin-bottom: 23px;
+}
+.slide-content .slide-content-text{
+	max-width: 733px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.6em;
+	color: rgba(255, 255, 255, .75);
+	margin: 0 auto 26px;
+}
+/*----review carousel end----*/
 
 /*----latest news----*/
 .latest-news .title{
