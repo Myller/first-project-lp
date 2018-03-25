@@ -470,14 +470,20 @@ textarea.form-control{
 .slick-arrow{
     position: absolute;
     height: 100%;
+	width: 90px;
     top: 0;
-	z-index: 99;
+	z-index: 1;
+	cursor: pointer;
 }
 .slick-arrow.slick-prev{
     left: 0;
 }
 .slick-arrow.slick-next{
     right: 0;
+}
+.slick-arrow.slick-next .carousel-button{
+	right: 0;
+	margin-right: -31px;
 }
 .slick-arrow .carousel-button{
     width: 63px;
