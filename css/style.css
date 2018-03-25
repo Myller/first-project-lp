@@ -73,6 +73,10 @@ blockquote {
 .bg-grey{
 	background-color: #f8f8f8;
 }
+.m-auto{
+	float: none;
+	margin: 0 auto;
+}
 /*====Default classes end====*/
 
 /*=====Default components start ====*/
@@ -200,6 +204,23 @@ textarea.form-control{
 .form-info .fa{
     font-size: 12px;
 }
+.rhomb-icon{
+	display: inline-block;
+	width: 23px;
+	height:23px;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 2px;
+	font-size: 14px;
+	transform: rotate(45deg);
+}
+.rhomb-icon i {
+	transform: rotate(-45deg);
+}
+.rhomb-icon.black-icon{
+	color: #fff;
+	background-color: #111;
+}
 /*=====Default components end ====*/
 
 /*====Guide style start ====*/
@@ -316,7 +337,6 @@ textarea.form-control{
 	float: left;
 	width: 20%;
 	text-align: center;
-
 	color: rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 }
@@ -579,6 +599,30 @@ textarea.form-control{
 }
 /*----subscribe end----*/
 
+/*----contacts----*/
+.contacts .contact-item-content{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.contacts .contact-item-content span{
+	display: block;
+}
+.contacts .contact-item-content .contact-title{
+	color: #777;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+}
+.contacts .contact-item-content .contact-data{
+	color: #444;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+}
+/*----contacts end----*/
 
 /*=====Customs style end ====*/
 
