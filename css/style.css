@@ -221,6 +221,15 @@ textarea.form-control{
 	color: #fff;
 	background-color: #111;
 }
+.rhomb-icon.transparent-icon{
+    color: #111;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+.rhomb-icon.white-icon{
+    color: #111;
+    background-color: #fff;
+}
 /*=====Default components end ====*/
 
 /*====Guide style start ====*/
@@ -265,6 +274,7 @@ textarea.form-control{
 	height: 100vh;
 	text-align: center;
 	padding-top: 87px;
+    position: relative;
 }
 .inner:before{
 	display: inline-block;
@@ -290,6 +300,19 @@ textarea.form-control{
 	font-size: 19px;
 	font-weight: 300;
 	color: rgba(255, 255, 255, .68)
+}
+.inner .inner-icon{
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 15px;
+}
+.inner .inner-icon i{
+    position: absolute;
+    left: 9px;
+    bottom: 2px;
 }
 
 /*--Inner-end---*/
@@ -503,7 +526,7 @@ textarea.form-control{
 }
 .slick-arrow.slick-next .carousel-button{
 	right: 0;
-	margin-right: -31px;
+    margin-right: -31px;
 }
 .slick-arrow .carousel-button{
     width: 63px;
@@ -624,9 +647,40 @@ textarea.form-control{
 }
 /*----contacts end----*/
 
+/*---footer ----*/
+.footer{
+    display: block;
+    background-color: #fff;
+}
+.footer-logo{
+    padding-top: 140px;
+    margin-bottom: 25px;
+}
+.footer .footer-item{
+    display: inline-block;
+    margin-bottom: 109px;
+}
+.footer .footer-item .transparent-icon{
+    margin-left: 13px;
+}
+.footer .footer-signature span{
+    display: block;
+}
+.footer .footer-signature .title-signature{
+    color: #111;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 2em;
+}
+.footer .footer-signature .title-text{
+    color: #999;
+    font-size: 11px;
+    padding-bottom: 58px;
+}
+/*---footer end ----*/
 /*=====Customs style end ====*/
-
-
 
 
 
