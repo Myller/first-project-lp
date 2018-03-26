@@ -343,28 +343,33 @@ textarea.form-control{
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 21px;
-}
-.team-item .skills-items{
-	position: relative;
+	margin-bottom: 46px;
 }
 .team-item  .skills-items .skills-items-title{
 	display: block;
 	font-size: 11px;
 	font-weight: 400;
-	line-height: 38px;
+	line-height: 3.45em;
+	padding: 20px 0 7px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, .9);
+}
+.team-item  .skills-items .skills-items-title{
+	display: block;
+}
+.skills-items .skills-items-line{
+	position: relative;
 }
 .team-item .skills-items .line-transparent{
 	position: absolute;
 	width: 100%;
-	height: 5px;
+	height: 12px;
 	background-color: rgba(255, 255, 255, .15);
 }
 .team-item .skills-items .line-white{
 	position: absolute;
 	width: 0;
-	height: 5px;
+	height: 12px;
 	transition: .9s linear;
 }
 .team-item .team-item-jpg:hover .line-white{
