@@ -224,7 +224,7 @@ textarea.form-control{
 .rhomb-icon.transparent-icon{
     color: #111;
     background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(0, 0, 0, .9);
 }
 .rhomb-icon.white-icon{
     color: #111;
@@ -307,17 +307,23 @@ textarea.form-control{
     left: 50%;
     width: 26px;
     height: 26px;
-    font-size: 15px;
 }
 .inner .inner-icon i{
     position: absolute;
-    left: 9px;
-    bottom: 2px;
+    left: 13px;
+    bottom: 4px;
+    font-size: 9px;
 }
 
 /*--Inner-end---*/
 
 /*--About-studio----*/
+.about-studio{
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+.about-studio .team-wrapper{
+    margin-top: 110px;
+}
 .team-item .team-item-jpg{
 	position: relative;
 }
@@ -357,7 +363,7 @@ textarea.form-control{
 .team-item  .skills-items .skills-items-title{
 	display: block;
 }
-.skills-items .skills-items-line{
+.team-item .skills-items .skills-items-line{
 	position: relative;
 }
 .team-item .skills-items .line-transparent{
