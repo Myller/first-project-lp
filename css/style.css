@@ -699,11 +699,11 @@ textarea.form-control{
 
 /*---footer ----*/
 .footer{
-    display: block;
-    background-color: #fff;
+    padding: 140px 0 58px;
+
 }
 .footer-logo{
-    padding-top: 140px;
+
     margin-bottom: 25px;
 }
 .footer .footer-item{
@@ -727,7 +727,6 @@ textarea.form-control{
 .footer .footer-signature .title-text{
     color: #999;
     font-size: 11px;
-    padding-bottom: 58px;
 }
 /*---footer end ----*/
 /*=====Customs style end ====*/
