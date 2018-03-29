@@ -727,6 +727,12 @@ textarea.form-control{
 
 /*----contacts end----*/
 
+/*----map----*/
+    #map{
+        height:410px;
+    }
+/*----map end----*/
+
 /*---footer ----*/
 .footer{
     padding: 140px 0 58px;
