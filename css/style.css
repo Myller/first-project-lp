@@ -236,6 +236,14 @@ textarea.form-control{
     color: #111;
     background-color: #fff;
 }
+.arrow-up{
+    color: #c6c6c6;
+    position: fixed;
+    font-size: 50px;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
 /*=====Default components end ====*/
 
 /*====Guide style start ====*/
@@ -247,7 +255,7 @@ textarea.form-control{
 
 /*=====Customs style start ====*/
 .header {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	z-index:99;
 	padding: 27px 0;
@@ -335,7 +343,7 @@ textarea.form-control{
 .team-item .team-item-jpg{
 	position: relative;
 }
-.team-item .team-item-skills{
+.team-item .skill-item{
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -345,52 +353,33 @@ textarea.form-control{
 	transition: all .2s linear;
 	padding: 40px;
 }
-.team-item .team-item-jpg:hover .team-item-skills{
+.team-item .team-item-jpg:hover .skill-item{
 	opacity: 1;
 }
-.team-item .team-item-skills .section-title{
+.team-item .skill-item .skill-name{
 	margin-bottom: 31px;
 	letter-spacing: .3em;
 }
-.team-item .team-item-skills .skills-text{
-	color: rgba(255, 255, 255, .5);
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 21px;
-	margin-bottom: 46px;
+.skill-item span{
+    font-size: 11px;
+    color: #fff;
+    display: block;
 }
-.team-item  .skills-items .skills-items-title{
-	display: block;
-	font-size: 11px;
-	font-weight: 400;
-	line-height: 3.45em;
-	padding: 20px 0 7px;
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, .9);
+.progress-wrapp{
+    width: 100%;
+    height: 12px;
+    background-color: rgba(255, 255, 255, .15);
 }
-.team-item  .skills-items .skills-items-title{
-	display: block;
+.progress-wrapp .progress{
+    background-color: rgba(255, 255, 255, .75);
+    height: 12px;
+    width: 0%;
+    overflow: hidden;
+    transition: .2s;
 }
-.team-item .skills-items .skills-items-line{
-	position: relative;
+.team-item .team-item-jpg:hover .progress{
+    width: 70%;
 }
-.team-item .skills-items .line-transparent{
-	position: absolute;
-	width: 100%;
-	height: 12px;
-	background-color: rgba(255, 255, 255, .15);
-}
-.team-item .skills-items .line-white{
-	position: absolute;
-	width: 0;
-	height: 12px;
-	transition: .9s linear;
-}
-.team-item .team-item-jpg:hover .line-white{
-	width: 70%;
-	background-color: #fff;
-}
-
 .team-item-info span{
 	display: block;
 	text-transform: uppercase;

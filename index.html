@@ -34,11 +34,11 @@
             <!--/logo-->
             <!--header/nav-->
             <ul class="header-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" data-scroll=".inner">Home</a></li>
+                <li><a href="#" data-scroll=".about-studio">About</a></li>
+                <li><a href="#" data-scroll=".services">Services</a></li>
+                <li><a href="#" data-scroll=".portfolio">Works</a></li>
+                <li><a href="#" data-scroll=".contacts">Contact</a></li>
             </ul>
             <!--/header-nav-->
 
@@ -51,7 +51,7 @@
             <div class="inner-content">
                 <h1>Thomas Rhythm</h1>
                 <span>Extraordinary art director & creative minimalism lover</span>
-                <a href="#">
+                <a href="#" data-scroll=".about-studio">
                     <div class="inner-icon  rhomb-icon white-icon">
                        <i class="fa fa-chevron-down"></i>
                     </div>
@@ -90,27 +90,10 @@
                             <div class="team-item">
                                 <div class="team-item-jpg">
                                     <img src="img/team-item.jpg" alt="">
-                                    <div class="team-item-skills">
-                                        <div class="title section-title title-white">
-                                        <span>Skills</span>
-                                    </div>
-                                        <p class="skills-text">Curabitur iaculis accumsan augue, nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique porta.</p>
-                                        <div class="skills-items">
-                                            <span class="skills-items-title">Branding</span>
-                                            <div class="skills-items-line">
-                                                <span class="line-transparent"></span>
-                                                <span class="line-white"></span>
-                                            </div>
-                                            <span class="skills-items-title">Branding</span>
-                                            <div class="skills-items-line">
-                                                <span class="line-transparent"></span>
-                                                <span class="line-white"></span>
-                                            </div>
-                                            <span class="skills-items-title">Branding</span>
-                                            <div class="skills-items-line">
-                                                <span class="line-transparent"></span>
-                                                <span class="line-white"></span>
-                                            </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Skills</span>
+                                        <div class="progress-wrapp">
+                                            <div class="progress"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -842,10 +825,15 @@
                 <span class="title-signature"><i class="fa fa-copyright"></i> Rhythm 2014</span>
                 <span class="title-text">Made with love for great people</span>
             </div>
+            <!--/footer-item-->
         </div>
+        <!--/container-->
     </div>
-
     <!--/FOOTER END-->
+    <!--arrow up-->
+    <div class="arrow-up" data-scroll=".inner">
+        <i class="fa fa-caret-up"></i>
+    </div>
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -857,6 +845,10 @@
     <script src="js/google-maps.js"></script>
     <!--Google map api-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtjeoUeHJpTLCVw69o-qmxx59webcMUcs&callback=initMap" async defer></script>
+   <!--show header scroll-->
+    <script src="js/header-scroll.js"></script>
+    <!--srcoll to-->
+    <script src="js/scroll-to.js"></script>
     <!--Init plugins-->
     <script src="js/init.js"></script>
 
