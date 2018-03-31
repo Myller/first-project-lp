@@ -18,11 +18,11 @@ function initMap() {
 
 
         // Add your coordinates. How to know coordinates: https://support.google.com/maps/answer/18539?hl=en
-        let myLatlng = new google.maps.LatLng(49.982521, 36.246361);
+        let myLatlng = new google.maps.LatLng(46.490680, 30.745931);
 
         // Add your company name and some text about company
-        let maptooltipbold = 'EasyCode';
-        let maptooltip = 'IT курсы';
+        let maptooltipbold = 'Одесса';
+        let maptooltip = 'морской вокзал';
 
 
         //---------------------------------------------------------//
@@ -64,7 +64,7 @@ function initMap() {
         let map = new google.maps.Map(mapElement, mapOptions);
 
         // Image of toogle
-        let image = 'img/contacts-map-marker.png';
+        let image = 'img/sea.png';
 
         // Div's of toogle
         let content = document.createElement('div');

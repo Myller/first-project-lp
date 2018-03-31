@@ -27,7 +27,7 @@
     <div class="header">
         <div class="container-fluid">
             <div class="logo">
-                <a href="#">
+                <a href="#" data-scroll=".inner">
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
@@ -768,11 +768,13 @@
                             <textarea name="user-messages" id="user-messages" class="form-control" placeholder="message"></textarea>
                         </div>
                         <!--/form-col-->
-                        <div class="form-info pull-left">
-                            <span><i class="fa fa-info-circle"></i> All the fields are required</span>
+                        <div class="form-col form-col-item">
+                            <div class="form-info pull-left">
+                                <span><i class="fa fa-info-circle"></i> All the fields are required</span>
+                            </div>
+                            <button type="button" class="btn btn-black pull-right">Submit Message</button>
                         </div>
-                        <!--/form-info-->
-                        <button type="button" class="btn btn-black pull-right">Submit Message</button>
+                        <!--/form-col-->
                     </div>
                     <!--/contact-form-->
                 </div>
@@ -791,8 +793,11 @@
                 <div class="map-icon rhomb-icon white-icon"><i class="fa fa-map-marker"></i></div>
                 <span>open the map<i class="fa fa-chevron-down"></i></span>
             </div>
+            <!--/map-block-item-->
         </div>
+        <!--/on-map-block-->
     </div>
+    <!--/map-container-->
 
     <!--/MAIN END-->
 
@@ -834,6 +839,7 @@
     <div class="arrow-up" data-scroll=".inner">
         <i class="fa fa-caret-up"></i>
     </div>
+    <!--/arrow-up-->
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

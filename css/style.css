@@ -373,7 +373,7 @@ textarea.form-control{
 .progress-wrapp .progress{
     background-color: rgba(255, 255, 255, .75);
     height: 12px;
-    width: 0%;
+    width: 0;
     overflow: hidden;
     transition: .2s;
 }
@@ -709,11 +709,10 @@ textarea.form-control{
 }
 .contact-form .form-info{
     line-height: 38px;
-	padding-left:5px;
 }
-.contact-form .btn,
-.contact-form .form-info{
+.form-col.form-col-item{
     margin-top: 20px;
+	width: 100%;
 }
 
 /*----contacts end----*/
@@ -725,14 +724,17 @@ textarea.form-control{
 .map-container{
     position: relative;
 }
-.on-map-block{
+.map-container .on-map-block{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .95);
+    background: rgba(0, 0, 0, .9);
     top: 0;
     left: 0;
 	text-align: center;
+}
+.map-container:hover .on-map-block{
+	display: none;
 }
 .map-block-item{
 	text-align: center;
