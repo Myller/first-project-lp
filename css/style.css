@@ -143,6 +143,11 @@ blockquote span,
 	text-transform: uppercase;
 	letter-spacing: .2em;
 }
+@media (max-width: 991px) {
+	blockquote{
+		margin-bottom: 30px;
+	}
+}
 .btn{
 	display: inline-block;
 	padding: 12px 20px;
@@ -280,37 +285,36 @@ textarea.form-control{
 .header .header-nav li + li{
 	margin-left: 35px;
 }
-
 /*--Inner----*/
 
-.inner{
-	background: url('../img/inner-bg.jpg') no-repeat center / cover;
+.inner {
+	background: url('../img/inner-bg.jpg') no-repeat center/cover;
 	height: 100vh;
 	text-align: center;
-	padding-top: 87px;
-    position: relative;
+	padding-top: 71px;
+	position: relative;
 }
-.inner:before,
+.inner::before,
 .on-map-block:before{
+	content: ' ';
 	display: inline-block;
 	height: 100%;
-	content: '';
 	vertical-align: middle;
+	margin-left: -4px;
 }
 .inner-content,
 .map-block-item{
 	display: inline-block;
 	vertical-align: middle;
 }
-.inner-content h1{
-	letter-spacing: 53px;
-	text-indent: 53px;
-	text-transform: uppercase;
-	margin-bottom: 102px;
+.inner .inner-title {
 	font-family: 'Dosis', sans-serif;
 	font-size: 30px;
-	font-weight: 400;
-	color: rgba(255, 255, 255, .9)
+	color: #fefefe;
+	margin-bottom: 100px;
+	letter-spacing: 1.7em;
+	text-indent: 1.7em;
+	text-transform: uppercase;
 }
 .inner-content span{
 	font-size: 19px;
@@ -330,6 +334,14 @@ textarea.form-control{
     bottom: 4px;
     font-size: 9px;
 }
+@media (max-width: 991px) {
+	.inner .inner-title{
+		letter-spacing: .7em;
+		text-indent: .7em;
+		margin-bottom: 50px;
+	}
+}
+
 
 /*--Inner-end---*/
 
@@ -421,6 +433,40 @@ textarea.form-control{
 	font-size: 12px;
 	font-family: 'Dosis', sans-serif;
 }
+
+
+@media(max-width: 1200px) {
+	.team-item .skill-item{
+		padding: 20px;
+	}
+	.team-item .skill-item .skill-text {
+		padding-bottom: 15px;
+	}
+}
+
+@media(max-width: 991px) {
+	.team-item .skill-item{
+		padding: 20px;
+	}
+	.team-item .skill-item .skill-title{
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.team-item .skill-item .skill-text{
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+	.team-item .skill-item .skill-name{
+		font-size: 10px;
+		line-height: 2.5;
+	}
+	.progress-wrapp{
+		height: 6px;
+	}
+	.progress-wrapp .progress{
+		height: 6px;
+	}
+}
 /*----About-studio-end----*/
 
 /*----Services----*/
@@ -453,6 +499,14 @@ textarea.form-control{
 	letter-spacing: .4em;
 	text-transform: uppercase;
 }
+#tab .tabs-penal{
+	clear: both;
+}
+@media (max-width: 991px) {
+	#tabs .tabs-nav li .tabs-nav-title {
+		font-size: 12px;
+	}
+}
 
 /*----Services end----*/
 /*----lets-talk----*/
@@ -468,6 +522,12 @@ textarea.form-control{
 }
 .lets-talk .lets-talk-content .btn{
 	font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 991px) {
+	.lets-talk .lets-talk-content{
+		padding: 70px 0;
+		text-align: center;
+	}
 }
 /*----lets-talk end----*/
 
@@ -549,6 +609,12 @@ textarea.form-control{
 }
 .why-choose-us .row + .row{
 	margin-top: 86px;
+}
+@media (max-width: 991px) {
+	.why-choose-us-benefits{
+		text-align: center;
+		margin-bottom: 30px;
+	}
 }
 
 /*----why-choose-us-end---*/
@@ -647,6 +713,13 @@ textarea.form-control{
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, .3);
 }
+
+
+@media (max-width: 991px) {
+	.slide-content	.slide-content-text{
+		margin: 0 20px 26px 20px;
+	}
+}
 /*----review carousel end----*/
 
 /*----latest news----*/
@@ -656,36 +729,48 @@ textarea.form-control{
 .latest-news .title span{
 	display: block;
 }
-.latest-news .latest-news-post .latest-news-post-img{
+.latest-news-post .latest-news-post-img{
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	transition: .2s;
 }
-.latest-news .latest-news-post:hover .latest-news-post-img{
+.latest-news-post:hover .latest-news-post-img{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
 .latest-news .title .latest-news-header-link,
-.latest-news .latest-news-post .latest-news-post-author{
+.latest-news-post .latest-news-post-author{
 	float: right;
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: .4em;
 	color: #999;
 }
-.latest-news .latest-news-post .latest-news-post-author {
+.latest-news-post .latest-news-post-author {
 	float: none;
 	text-transform: uppercase;
 	margin-bottom: 27px;
 	font-family: 'Dosis', sans-serif;
 }
-.latest-news .latest-news-post .title{
+.latest-news-post .title{
 	margin: 30px 0 17px;
 	letter-spacing: .2em;
 }
-.latest-news .latest-news-post .default-text{
+.latest-news-post .default-text{
 	margin-bottom: 25px;
 }
+
+@media (max-width: 991px) {
+	.latest-news-post img{
+		width: 100%;
+	}
+	.latest-news-post{
+		margin-bottom: 40px;
+		padding-bottom: 40px;
+		border-bottom: 2px solid #c3c3c3;
+	}
+}
+
 
 /*----latest news end----*/
 
