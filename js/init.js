@@ -11,5 +11,8 @@ $(function () {
     });
 
     // Slick nav
-    $('.header-nav').slicknav({});
+    $('.header-nav').slicknav({
+        appendTo: '.header .container-fluid',
+        label: ''
+    });
 });

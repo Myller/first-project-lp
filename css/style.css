@@ -259,12 +259,13 @@ textarea.form-control{
 /*====Guide style start end ====*/
 
 /*=====Customs style start ====*/
+
+/*----header----*/
 .header {
 	position: absolute;
 	width: 100%;
 	z-index:99;
 	padding: 25px 0;
-	overflow: hidden;
 }
 .logo{
 	float: left;
@@ -285,7 +286,20 @@ textarea.form-control{
 .header .header-nav li + li{
 	margin-left: 35px;
 }
-/*--Inner----*/
+.slicknav_menu{
+	display: none;
+}
+@media (max-width: 767px) {
+	.slicknav_menu{
+		display: block;
+	}
+	.header-nav{
+		display: none;
+	}
+}
+/*----header end----*/
+
+/*----Inner----*/
 
 .inner {
 	background: url('../img/inner-bg.jpg') no-repeat center/cover;
