@@ -36,7 +36,24 @@
   .slicknav_menu .slicknav_icon-bar {
     display: block;
     width: 100%;
-    height: 2px;}
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease}
+  .slicknav_btn.slicknav_open:hover .slicknav_icon-bar:nth-child(2){
+    width: 0;
+  }
+  .slicknav_btn.slicknav_open:hover .slicknav_icon-bar:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: left;
+  }
+  .slicknav_btn.slicknav_open:hover .slicknav_icon-bar:nth-child(3){
+    transform: rotate(-45deg);
+    transform-origin: left;
+  }
+  .slicknav_open .slicknav_icon{
+    width: 20px;
+  }
   .slicknav_menu:before {
     content: " ";
     display: table; }
