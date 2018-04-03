@@ -93,6 +93,11 @@ blockquote {
 .default-section{
 	padding: 135px 0;
 }
+@media (max-width: 767px) {
+	.default-section{
+		padding: 70px 0;
+	}
+}
 .small-section{
 	padding: 70px 0;
 }
@@ -296,6 +301,9 @@ textarea.form-control{
 	.header-nav{
 		display: none;
 	}
+	.title.section-title {
+		margin-bottom: 50px;
+	}
 }
 /*----header end----*/
 
@@ -359,6 +367,14 @@ textarea.form-control{
 	.inner{
 		height: auto;
 		padding: 150px 0;
+	}
+	.inner .inner-icon{
+		width: 18px;
+		height: 18px;
+	}
+	.inner .inner-icon i{
+		left: 8px;
+		bottom: 1px;
 	}
 }
 
@@ -499,12 +515,14 @@ textarea.form-control{
 	.team-item-jpg img{
 		width: 100%;
 	}
-
+	.about-studio .team-wrapper{
+		margin-top: 0;
+	}
 	.team-item .team-item-info{
 		margin-top: 15px;
 	}
-	.team-item-info .team-item-role{
-		margin-bottom: 50px;
+	.team-wrapper .team-item{
+		margin-top: 50px;
 	}
 }
 /*----About-studio-end----*/
@@ -598,7 +616,7 @@ textarea.form-control{
 	font-family: 'Dosis', sans-serif;
 	letter-spacing: .4em;
 	overflow: hidden;
-	margin-bottom: 51px;
+	margin-bottom: 50px;
 }
 #portfolio .tabs-nav li{
 	display: inline-block;
@@ -636,6 +654,9 @@ textarea.form-control{
 }
 
 @media (max-width: 767px) {
+	.portfolio .portfolio-text{
+		margin: 0 auto 50px;
+	}
 	#portfolio .tabs-nav li + li{
 		margin-left: 0;
 	}
@@ -686,6 +707,12 @@ textarea.form-control{
 		text-align: center;
 		margin-bottom: 30px;
 	}
+}
+@media (max-width: 767px) {
+	.why-choose-us .row + .row{
+		margin-top: 0;
+	}
+
 }
 
 /*----why-choose-us-end---*/
