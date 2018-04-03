@@ -136,11 +136,24 @@ blockquote {
 	line-height: 1.733;
 	font-weight: 300;
 }
+@media (max-width: 576px) {
+	.default-text{
+		font-size: 13px;
+	}
+}
+
 blockquote,
 .blockquote {
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+	blockquote,
+	.blockquote{
+		font-size: 18px;
+	}
 }
 blockquote span,
 .blockquote span{
@@ -254,6 +267,20 @@ textarea.form-control{
     bottom: 30px;
     cursor: pointer;
 }
+@media (max-width: 576px) {
+	.arrow-up{
+		right: 15px;
+		bottom: 0;
+	}
+}
+@media (max-width: 576px){
+	.lets-talk-content .btn,
+	.start-project .btn,
+	.subscribe form .btn,
+	.contact-form .btn{
+		width: 100%;
+	}
+}
 /*=====Default components end ====*/
 
 /*====Guide style start ====*/
@@ -303,6 +330,11 @@ textarea.form-control{
 	}
 	.title.section-title {
 		margin-bottom: 50px;
+	}
+}
+@media (max-width: 576px) {
+	.header{
+		padding: 15px 0;
 	}
 }
 /*----header end----*/
@@ -377,7 +409,14 @@ textarea.form-control{
 		bottom: 1px;
 	}
 }
-
+@media (max-width: 576px){
+	.inner .inner-title{
+		font-size: 19px;
+	}
+	.inner-content span{
+		font-size: 15px;
+	}
+}
 
 /*--Inner-end---*/
 
@@ -525,6 +564,20 @@ textarea.form-control{
 		margin-top: 50px;
 	}
 }
+@media (max-width: 576px) {
+	.team-item .skill-item{
+		padding: 15px;
+	}
+	.team-item .skill-item .skill-title{
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	.team-item .skill-item .skill-text{
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+}
 /*----About-studio-end----*/
 
 /*----Services----*/
@@ -580,6 +633,15 @@ textarea.form-control{
 		text-align: justify;
 	}
 }
+@media (max-width: 576px){
+	#tabs .tabs-nav li{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	#tabs .tabs-nav li .tabs-nav-title{
+		font-size: 11px;
+	}
+}
 /*----Services end----*/
 /*----lets-talk----*/
 .lets-talk .lets-talk-content{
@@ -599,6 +661,12 @@ textarea.form-control{
 	.lets-talk .lets-talk-content{
 		padding: 70px 0;
 		text-align: center;
+	}
+}
+@media (max-width: 576px) {
+	.title.section-title-light{
+		font-size: 16px;
+		line-height: 1.5;
 	}
 }
 /*----lets-talk end----*/
@@ -818,6 +886,14 @@ textarea.form-control{
 		margin: 0 20px 26px 20px;
 	}
 }
+@media (max-width: 576px) {
+	.reviews-carousel {
+		padding: 70px 0;
+	}
+	.slide-content .slide-content-text{
+		font-size: 16px;
+	}
+}
 /*----review carousel end----*/
 
 /*----latest news----*/
@@ -868,7 +944,11 @@ textarea.form-control{
 		border-bottom: 2px solid #c3c3c3;
 	}
 }
-
+@media (max-width: 576px) {
+	.latest-news .latest-news-header-link{
+		padding-top: 30px;
+	}
+}
 
 /*----latest news end----*/
 
@@ -884,6 +964,12 @@ textarea.form-control{
 .subscribe .form-info {
     margin-top: 17px;
 }
+@media (max-width: 576px) {
+	.subscribe form .btn{
+		margin-top: 15px;
+	}
+}
+
 /*----subscribe end----*/
 
 /*----contacts----*/
@@ -956,6 +1042,12 @@ textarea.form-control{
 	.contact-item .rhomb-icon{
 		margin: 25px 0 10px 0;
 	}
+@media (max-width: 576px) {
+	.contact-form .form-info{
+		text-align: center;
+		float: none;
+	}
+}
 
 }
 /*----contacts end----*/
