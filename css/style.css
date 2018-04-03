@@ -355,6 +355,12 @@ textarea.form-control{
 		margin-bottom: 50px;
 	}
 }
+@media (max-width: 767px) {
+	.inner{
+		height: auto;
+		padding: 150px 0;
+	}
+}
 
 
 /*--Inner-end---*/
@@ -432,6 +438,9 @@ textarea.form-control{
     width: 90%;
 	transition: 1.2s  ease-in-out;
 }
+.team-item .team-item-info{
+	margin-top: 31px;
+}
 .team-item-info span{
 	display: block;
 	text-transform: uppercase;
@@ -441,7 +450,7 @@ textarea.form-control{
 }
 .team-item-info .team-item-name{
 	font-size: 15px;
-	margin: 31px 0 16px;
+	margin-bottom: 16px;
 }
 .team-item-info .team-item-role{
 	font-size: 12px;
@@ -449,7 +458,7 @@ textarea.form-control{
 }
 
 
-@media(max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	.team-item .skill-item{
 		padding: 20px;
 	}
@@ -458,7 +467,7 @@ textarea.form-control{
 	}
 }
 
-@media(max-width: 991px) {
+@media(min-width: 768px) and (max-width: 991px) {
 	.team-item .skill-item{
 		padding: 20px;
 	}
@@ -479,6 +488,23 @@ textarea.form-control{
 	}
 	.progress-wrapp .progress{
 		height: 6px;
+	}
+}
+@media (max-width: 767px) {
+	.about-studio .default-text{
+		padding-bottom: 20px;
+		text-indent: 20px;
+		text-align: justify;
+	}
+	.team-item-jpg img{
+		width: 100%;
+	}
+
+	.team-item .team-item-info{
+		margin-top: 15px;
+	}
+	.team-item-info .team-item-role{
+		margin-bottom: 50px;
 	}
 }
 /*----About-studio-end----*/
@@ -522,6 +548,20 @@ textarea.form-control{
 	}
 }
 
+@media (max-width: 767px) {
+	#tabs .tabs-nav li{
+		width: 33.3333%;
+		margin-bottom: 20px;
+	}
+	#tabs .tabs-nav{
+		margin-bottom: 40px;
+	}
+	#tabs .default-text{
+		margin-bottom: 20px;
+		text-indent: 20px;
+		text-align: justify;
+	}
+}
 /*----Services end----*/
 /*----lets-talk----*/
 .lets-talk .lets-talk-content{
@@ -593,6 +633,23 @@ textarea.form-control{
 #portfolio .portfolio-items img:hover{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+
+@media (max-width: 767px) {
+	#portfolio .tabs-nav li + li{
+		margin-left: 0;
+	}
+	#portfolio .tabs-nav li{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#portfolio .tabs-nav li:last-child{
+		margin-bottom: 0;
+	}
+	#portfolio .portfolio-items{
+		float: none;
+		max-width: 100%;
+	}
 }
 /*----portfolio end----*/
 
@@ -806,15 +863,15 @@ textarea.form-control{
 .contacts .contact-items-wrapper{
     margin-bottom: 80px;
 }
-.contacts .contact-item-content{
+.contact-item-content{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 15px;
 }
-.contacts .contact-item-content span{
+.contact-item-content span{
 	display: block;
 }
-.contacts .contact-item-content .contact-title{
+.contact-item-content .contact-title{
 	color: #777;
 	font-family: 'Dosis', sans-serif;
 	font-size: 12px;
@@ -822,7 +879,7 @@ textarea.form-control{
 	text-transform: uppercase;
 	letter-spacing: .3em;
 }
-.contacts .contact-item-content .contact-data{
+.contact-item-content .contact-data{
 	color: #444;
 	font-size: 15px;
 	font-weight: 300;
@@ -853,7 +910,27 @@ textarea.form-control{
 .contact-form .form-info{
     line-height: 38px;
 }
+@media (max-width: 767px) {
+	.contact-form .form-col{
+		width: 100%;
+	}
+	.contact-form .form-col:last-child{
+		margin-top: 10px;
+	}
+	.contacts .contact-items-wrapper {
+		margin-bottom: 40px;
+	}
+	.contact-items-wrapper .contact-item{
+		text-align: center;
+	}
+	.contact-items-wrapper .contact-item-content{
+		display: block;
+	}
+	.contact-item .rhomb-icon{
+		margin: 25px 0 10px 0;
+	}
 
+}
 /*----contacts end----*/
 
 /*----map----*/
