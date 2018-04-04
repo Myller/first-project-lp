@@ -15,4 +15,10 @@ $(function () {
         appendTo: '.header .container-fluid',
         label: ''
     });
+
+    // LightBox
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
 });
