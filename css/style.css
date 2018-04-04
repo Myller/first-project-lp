@@ -1073,7 +1073,6 @@ textarea.form-control{
 }
 .map-block-item{
 	text-align: center;
-	position: relative;
 }
 .map-block-item span{
 	display: block;
@@ -1087,9 +1086,7 @@ textarea.form-control{
 
 }
 .map-block-item span i{
-	position: absolute;
-	bottom: 5px;
-	font-size: 9px;
+	font-size: 12px;
 	margin-left: 14px;
 }
 /*----map end----*/
