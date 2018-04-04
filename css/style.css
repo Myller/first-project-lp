@@ -342,7 +342,6 @@ textarea.form-control{
 /*----Inner----*/
 
 .inner {
-	background: url('../img/inner-bg.jpg') no-repeat center/cover;
 	height: 100vh;
 	text-align: center;
 	padding-top: 71px;

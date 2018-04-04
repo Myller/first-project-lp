@@ -20,5 +20,7 @@ $(function () {
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true
-    })
+    });
+    //Paralax
+    $('.parallax-window').parallax({imageSrc: 'img/inner-bg.jpg'});
 });
