@@ -378,13 +378,13 @@ textarea.form-control{
     position: absolute;
     bottom: 36px;
     left: 50%;
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
 }
 .inner .inner-icon i{
     position: absolute;
-    left: 13px;
-    bottom: 4px;
+    left: 10px;
+    bottom: 1px;
     font-size: 9px;
 }
 @media (max-width: 991px) {
@@ -882,7 +882,13 @@ textarea.form-control{
 
 @media (max-width: 991px) {
 	.slide-content	.slide-content-text{
-		margin: 0 20px 26px 20px;
+		max-width: 700px;
+	}
+}
+@media (max-width: 767px) {
+	.slide-content .slide-content-text{
+		font-size: 16px;
+		margin: 0 50px 26px 50px;
 	}
 }
 @media (max-width: 576px) {
@@ -891,6 +897,24 @@ textarea.form-control{
 	}
 	.slide-content .slide-content-text{
 		font-size: 16px;
+		margin: 0 20px 26px 20px;
+	}
+	.slick-arrow.slick-prev .carousel-button .fa {
+		bottom: 22px;
+		right: 8px;
+	}
+	.slick-arrow.slick-next .carousel-button .fa {
+		top: 24px;
+		left: 9px;
+	}
+	.slick-arrow.slick-next .carousel-button {
+		right: 0;
+		margin-right: -20px;
+	}
+	.slick-arrow .carousel-button{
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
 	}
 }
 /*----review carousel end----*/
